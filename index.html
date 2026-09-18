@@ -46,7 +46,7 @@
             text-decoration: none;
             color: #222;
             margin-left: 25px;
-            font-weight: bold;
+           
         }
 
         nav a:hover {
@@ -222,7 +222,7 @@
         }
         .map-section {
     background: #f5f7fa;
-    padding: 40px 20px;
+    padding: 30px 20px;
     
     text-align: center;
 }
@@ -283,7 +283,8 @@
             header {
                 display: block;
                 text-align: center;
-                padding: 12px 10px;
+                
+                padding: 8px 10px;
             }
 
             nav {
@@ -294,6 +295,14 @@
                margin: 5px 8px;
                 display: inline-block;
             }
+            .brands h2 {
+    font-size: 30px;
+    }
+    .our-work h2 {
+    font-size: 28px;
+    }
+}
+
             .hero-content {
     margin-left: 0;
     padding: 0 20px;
@@ -348,6 +357,7 @@
     background: white;
     padding: 35px;
     border-radius: 16px;
+    border-top: 5px solid #0057b8;
     box-shadow: 0 5px 20px rgba(0,0,0,0.12);
 }
 
@@ -361,6 +371,190 @@ footer {
 
 footer p {
     margin: 5px 0;
+}
+.header-call {
+    background: #0057b8;
+    color: white;
+    padding: 11px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.our-work {
+    padding: 70px 20px;
+    text-align: center;
+    background: #f4f8fc;
+}
+
+.our-work h2 {
+    font-size: 36px;
+    color: #0057b8;
+    margin-bottom: 10px;
+}
+
+.our-work p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.our-work video {
+    width: 100%;
+    max-width: 750px;
+    max-height: 500px;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+    background: #000;
+}
+
+.reviews {
+    padding: 70px 8%;
+    background: #f5f7fa;
+    text-align: center;
+}
+
+.reviews h2 {
+    font-size: 36px;
+    color: #0057b8;
+    margin-bottom: 10px;
+}
+
+.reviews-title {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 35px;
+}
+
+.review-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.review-box {
+    background: white;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.10);
+}
+
+.stars {
+    color: #ffb400;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.review-box p {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.review-box h3 {
+    color: #0057b8;
+    font-size: 18px;
+}
+
+.reviews {
+    padding: 70px 8%;
+    background: #f5f7fa;
+    text-align: center;
+}
+
+.reviews h2 {
+    font-size: 36px;
+    color: #0057b8;
+    margin-bottom: 10px;
+}
+
+.reviews-title {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 35px;
+}
+
+.review-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.review-box {
+    background: white;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.10);
+}
+
+.stars {
+    color: #ffb400;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.review-box p {
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.review-box h3 {
+    color: #0057b8;
+    font-size: 18px;
+}
+
+.brands {
+    padding: 60px 8%;
+    text-align: center;
+    background: #ffffff;
+}
+
+.brands h2 {
+    font-size: 36px;
+    color: #0057b8;
+    margin-bottom: 10px;
+}
+
+.brands > p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 35px;
+}
+
+.brand-boxes {
+    display: grid;
+   grid-template-columns: minmax(280px, 420px);
+   justify-content: center;
+    gap: 20px;
+}
+
+.brand-box {
+    background: #f5f7fa;
+    border: 2px solid #dbeafe;
+    padding: 25px 15px;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #0057b8;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+.brand-box h3 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.brand-box p {
+    font-weight: normal;
+    font-size: 17px;
+    color: #555;
+    margin: 8px 0;
+}
+
+.brand-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 22px rgba(0,0,0,0.12);
 }
     </style>
 </head>
@@ -377,6 +571,7 @@ footer p {
         <a href="#home">Home</a>
         <a href="#services">Services</a>
         <a href="#contact">Contact</a>
+        <a href="tel:+919010884244" class="header-call">📞 Call Now</a>
     </nav>
 
 </header>
@@ -481,6 +676,27 @@ footer p {
     </div>
 
 </section>
+<section class="brands">
+   <h2>IFB Washing Machine Service</h2>
+    <p>Specialized repair and doorstep service for IFB washing machines in Vijayawada.</p>
+
+    <div class="brand-boxes">
+       <div class="brand-box">
+    <h3>Service Specialists</h3>
+    <p>Front Load • Top Load • Fully Automatic</p>
+    <p>Doorstep Service in Vijayawada</p>
+</div
+       
+    </div>
+</section>
+<section class="our-work">
+   <h2>See Our Technicians at Work</h2>
+   <p>Real IFB washing machine service and repair work in Vijayawada.</p>
+
+    <video controls>
+      <source src="ifb-our-work-professional-correct.mp4" type="video/mp4">
+    </video>
+</section>
 
 
 <section class="why-us">
@@ -512,6 +728,35 @@ footer p {
     </div>
 
 </section>
+
+<section class="reviews">
+    <h2>What Our Customers Say</h2>
+    <p class="reviews-title">Trusted washing machine repair service in Vijayawada.</p>
+
+    <div class="review-boxes">
+
+        <div class="review-box">
+            <div class="stars">★★★★★</div>
+            <p>Quick response and good washing machine repair service.</p>
+            <h3>Local Customer</h3>
+        </div>
+
+        <div class="review-box">
+            <div class="stars">★★★★★</div>
+            <p>Technician explained the problem clearly and completed the service professionally.</p>
+            <h3>Happy Customer</h3>
+        </div>
+
+        <div class="review-box">
+            <div class="stars">★★★★★</div>
+            <p>Good experience with the repair service. Fast and convenient doorstep support.</p>
+            <h3>Vijayawada Customer</h3>
+        </div>
+
+    </div>
+</section>
+
+
 
 
 <section class="contact" id="contact">
@@ -554,7 +799,7 @@ Vijayawada, Andhra Pradesh 520007
 
 <footer>
 
-    <p>© 2026 Washing Machine Service Vijayawada</p>
+   <p>© 2026 IFB Washing Machine Repair Works</p>
 
     <p>
         Independent appliance repair service.
